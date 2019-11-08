@@ -27,8 +27,8 @@ h2 {
 }
 
 a {
-	text-decoration:rgb(50, 50, 50);
 	color: black;
+	text-decoration: rgb(50, 50, 50);
 	font-weight: bold;
 }
 
