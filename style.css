@@ -1,0 +1,178 @@
+/* Colors and Fonts */
+
+body {
+	background: white; 
+	color: rgb(50, 50, 50);
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	font-weight:lighter;
+	margin: 0px 0px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color:black;
+	font-size: 50px;
+	margin: 0px 0px;
+	font-weight: lighter;
+}
+
+h2 {
+	color:rgb(100, 100, 100);
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration:rgb(50, 50, 50);
+	color: black;
+	font-weight: bold;
+}
+
+a:hover {
+	color:black;
+
+}
+
+/* Custom Design with class */
+
+	/* Header */
+
+.header{
+	background: linear-gradient(rgb(161, 197, 229),50%, white);
+	text-align: center;
+	background-size: cover;
+}
+
+.header h1{
+	padding: 25px;
+}
+
+
+#introduction{
+	text-align: center;
+}
+
+	/* General container */
+
+.container{
+	width: 900px;
+	margin: 40px auto;
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+}
+
+	/* Professional experience cards */
+
+.cardprofessional{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.cardprofessional p {
+		padding-left: 50px;
+}
+
+.cardprofessional h3 {
+		padding-left: 50px;
+}
+
+
+	/* Education and Skills cards */
+
+.cardcontainer{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+
+.cardcentered {
+	text-align:center;
+	width:200px;
+	height:300px;
+}
+
+	/* Footer */
+
+.footer {
+	text-align: center;
+	padding-top: 30px;
+	background: linear-gradient(0deg,rgb(161, 197, 229), white);
+	height: 30vh;
+}
+
+	/* button */
+
+.btn-blue{
+	background-color: rgb(61, 153, 206);
+	color:white;
+	padding:10px 20px;
+	border-radius: 4px;
+	margin:20px;
+	display:block;
+}
+
+.btn-blue:hover{
+	background-color: rgb(6, 53, 147);
+	color:white;
+}
+
+	/* Images */
+
+.img-circle {
+	border-radius:50%;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+
+	/* Lists */
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display:inline;
+	padding: 20px; 
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: rgb(61, 153, 206);
+}
+
+.list-inline i:hover {
+	color: rgb(7, 54, 147);
+}
+
+/* Media Queries */ 
+
+@media ( max-width: 760px) {
+	.container {
+		width:600px;
+	}
+}
+
+@media ( max-width: 500px) {
+	.container {
+		width:400px;
+	}
+	.cardprofessional {
+		display: block;
+	}
+}
+
+
+
+
+
